@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#192973"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.simon.progress_app.CategoryPage">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/category_placeholder" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            android:layout_weight="1"
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:padding="20dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:text="HW"/>
+            <TextView
+                android:layout_marginTop="50dp"
+                android:padding="20dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:text="Score"/>
+            <TextView
+                android:layout_marginTop="50dp"
+                android:padding="20dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:text="Average"/>
+
+        </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/add_button"
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+         />
+
+</LinearLayout>
