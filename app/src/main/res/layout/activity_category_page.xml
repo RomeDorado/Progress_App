@@ -52,12 +52,12 @@
         </LinearLayout>
 
     <Button
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:background="@drawable/add_button"
         android:id="@+id/button"
         android:layout_width="100dp"
         android:layout_height="30dp"
-         />
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/add_button"
+        android:onClick="dialogevent" />
 
 </LinearLayout>

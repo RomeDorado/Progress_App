@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
     }
 
     public void addSemester(View view){
-        Intent intent = new Intent(this, NewCourse.class);
+        Intent intent = new Intent(this, CategoryPage.class);
         startActivity(intent);
     }
 }
