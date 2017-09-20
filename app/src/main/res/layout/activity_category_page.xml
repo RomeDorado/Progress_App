@@ -8,12 +8,44 @@
     android:layout_height="match_parent"
     tools:context="com.example.simon.progress_app.CategoryPage">
 
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
     <ImageView
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="0dp"
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_height="100dp"
         app:srcCompat="@drawable/category_placeholder" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imageView11"
+            android:layout_alignTop="@id/imageView11"
+            android:layout_alignRight="@id/imageView11"
+            android:layout_alignBottom="@id/imageView11"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Homework"
+            android:textSize="30dp"
+            android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/imageView11"
+        android:layout_alignTop="@id/imageView11"
+        android:layout_alignRight="@id/imageView11"
+        android:layout_alignBottom="@id/imageView11"
+        android:gravity="right|center_vertical"
+        android:layout_marginRight="59dp"
+        android:text="79%"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
 
         <LinearLayout
             android:layout_gravity="center"
@@ -61,25 +93,25 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textColor="#ff3535"
-            android:text="HW1"/>
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:text="#1"/>
         <TextView
             android:padding="20dp"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textColor="#ff3535"
-            android:text="11 / 15"/>
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:text="22 / 30"/>
         <TextView
             android:padding="20dp"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textColor="#ff3535"
-            android:text="73.33%"/>
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:text="73%"/>
 
     </LinearLayout>
 
@@ -93,25 +125,25 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textColor="#ff3535"
-            android:text="HW2"/>
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:text="#2"/>
         <TextView
             android:padding="20dp"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textColor="#ff3535"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
             android:text="17 / 20"/>
         <TextView
             android:padding="20dp"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textColor="#ff3535"
-            android:text="85.00%"/>
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:text="85%"/>
 
     </LinearLayout>
 
